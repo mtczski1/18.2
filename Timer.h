@@ -22,12 +22,14 @@ class Timer
         int getTimer();
         int getCounter();
         bool getCzyDziala();
+        bool kontynuacja;
 
     private:
         int counter;
         double timer;
         bool czyDziala;
         void zegar();
+
 
 
 };
